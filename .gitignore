@@ -1,0 +1,12 @@
+.env 
+.env.local
+.env.*
+!.env.example
+
+# Common Node.js/API specific ignores
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
